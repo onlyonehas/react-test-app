@@ -1,0 +1,32 @@
+fec268c87a99a3b0eddda0990337802f
+"use strict";
+
+var _interopRequireDefault = require("/home/hassan/Sites/react-basic-app-robofriends/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _jsxFileName = "/home/hassan/Sites/react-basic-app-robofriends/src/components/Scroll.js";
+
+const Scroll = props => {
+  return _react.default.createElement("div", {
+    style: {
+      overflowY: 'scroll',
+      border: '5px solid black',
+      height: '800px'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: void 0
+  }, props.children);
+};
+
+var _default = Scroll;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlNjcm9sbC5qcyJdLCJuYW1lcyI6WyJTY3JvbGwiLCJwcm9wcyIsIm92ZXJmbG93WSIsImJvcmRlciIsImhlaWdodCIsImNoaWxkcmVuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTs7OztBQUVBLE1BQU1BLE1BQU0sR0FBSUMsS0FBRCxJQUFXO0FBQ3RCLFNBQ0k7QUFBSyxJQUFBLEtBQUssRUFBRztBQUFDQyxNQUFBQSxTQUFTLEVBQUcsUUFBYjtBQUF1QkMsTUFBQUEsTUFBTSxFQUFDLGlCQUE5QjtBQUFpREMsTUFBQUEsTUFBTSxFQUFFO0FBQXpELEtBQWI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsS0FDS0gsS0FBSyxDQUFDSSxRQURYLENBREo7QUFLSCxDQU5EOztlQVFlTCxNIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcblxuY29uc3QgU2Nyb2xsID0gKHByb3BzKSA9PiB7XG4gICAgcmV0dXJuKFxuICAgICAgICA8ZGl2IHN0eWxlPSB7e292ZXJmbG93WSA6ICdzY3JvbGwnLCBib3JkZXI6JzVweCBzb2xpZCBibGFjaycsIGhlaWdodDogJzgwMHB4J319PlxuICAgICAgICAgICAge3Byb3BzLmNoaWxkcmVufVxuICAgICAgICA8L2Rpdj5cbiAgICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgU2Nyb2xsOyJdfQ==

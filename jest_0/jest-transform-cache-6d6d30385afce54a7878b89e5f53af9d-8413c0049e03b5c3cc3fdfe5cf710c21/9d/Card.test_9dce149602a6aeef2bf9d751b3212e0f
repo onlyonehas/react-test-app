@@ -1,0 +1,22 @@
+d45c9a90086cccc4f4bb8cd62df02acc
+"use strict";
+
+var _interopRequireDefault = require("/home/hassan/Sites/react-basic-app-robofriends/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _enzyme = require("enzyme");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Card = _interopRequireDefault(require("./Card"));
+
+var _jsxFileName = "/home/hassan/Sites/react-basic-app-robofriends/src/components/Card.test.js";
+it('except to render Card component', () => {
+  expect((0, _enzyme.shallow)(_react.default.createElement(_Card.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: void 0
+  }))).toMatchSnapshot();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNhcmQudGVzdC5qcyJdLCJuYW1lcyI6WyJpdCIsImV4cGVjdCIsInRvTWF0Y2hTbmFwc2hvdCJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBOztBQUNBOztBQUNBOzs7QUFFQUEsRUFBRSxDQUFDLGlDQUFELEVBQW9DLE1BQU07QUFDM0NDLEVBQUFBLE1BQU0sQ0FBQyxxQkFBUSw2QkFBQyxhQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLElBQVIsQ0FBRCxDQUFOLENBQTBCQyxlQUExQjtBQUNBLENBRkMsQ0FBRiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAgeyBzaGFsbG93LCBtb3VudCwgcmVuZGVyIH0gZnJvbSAnZW56eW1lJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgQ2FyZCBmcm9tICcuL0NhcmQnO1xuXG5pdCgnZXhjZXB0IHRvIHJlbmRlciBDYXJkIGNvbXBvbmVudCcsICgpID0+IHtcblx0ZXhwZWN0KHNoYWxsb3coPENhcmQgLz4pKS50b01hdGNoU25hcHNob3QoKTtcbn0pIl19

@@ -1,0 +1,29 @@
+c42cb7750d022949ce15e660449e5ebc
+"use strict";
+
+var _interopRequireDefault = require("/home/hassan/Sites/react-basic-app-robofriends/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _enzyme = require("enzyme");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _CounterButton = _interopRequireDefault(require("./CounterButton"));
+
+var _jsxFileName = "/home/hassan/Sites/react-basic-app-robofriends/src/components/CounterButton.test.js";
+it('expect to render CounterButton component', () => {
+  const mockRobots = [{
+    id: 1,
+    name: 'John Snow',
+    username: 'JohnJohn',
+    email: 'john@gmail.com'
+  }];
+  expect((0, _enzyme.shallow)(_react.default.createElement(_CounterButton.default, {
+    robots: mockRobots,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: void 0
+  }))).toMatchSnapshot();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNvdW50ZXJCdXR0b24udGVzdC5qcyJdLCJuYW1lcyI6WyJpdCIsIm1vY2tSb2JvdHMiLCJpZCIsIm5hbWUiLCJ1c2VybmFtZSIsImVtYWlsIiwiZXhwZWN0IiwidG9NYXRjaFNuYXBzaG90Il0sIm1hcHBpbmdzIjoiOzs7O0FBQUE7O0FBQ0E7O0FBQ0E7OztBQUVBQSxFQUFFLENBQUMsMENBQUQsRUFBNkMsTUFBTTtBQUNwRCxRQUFNQyxVQUFVLEdBQUcsQ0FDbEI7QUFDQ0MsSUFBQUEsRUFBRSxFQUFFLENBREw7QUFFQ0MsSUFBQUEsSUFBSSxFQUFFLFdBRlA7QUFHQ0MsSUFBQUEsUUFBUSxFQUFFLFVBSFg7QUFJQ0MsSUFBQUEsS0FBSyxFQUFFO0FBSlIsR0FEa0IsQ0FBbkI7QUFTQUMsRUFBQUEsTUFBTSxDQUFDLHFCQUFRLDZCQUFDLHNCQUFEO0FBQWUsSUFBQSxNQUFNLEVBQUdMLFVBQXhCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLElBQVIsQ0FBRCxDQUFOLENBQXdETSxlQUF4RDtBQUNBLENBWEMsQ0FBRiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAgeyBzaGFsbG93LCBtb3VudCwgcmVuZGVyIH0gZnJvbSAnZW56eW1lJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgQ291bnRlckJ1dHRvbiBmcm9tICcuL0NvdW50ZXJCdXR0b24nO1xuXG5pdCgnZXhwZWN0IHRvIHJlbmRlciBDb3VudGVyQnV0dG9uIGNvbXBvbmVudCcsICgpID0+IHtcblx0Y29uc3QgbW9ja1JvYm90cyA9IFtcblx0XHR7XG5cdFx0XHRpZDogMSwgXG5cdFx0XHRuYW1lOiAnSm9obiBTbm93Jyxcblx0XHRcdHVzZXJuYW1lOiAnSm9obkpvaG4nLFxuXHRcdFx0ZW1haWw6ICdqb2huQGdtYWlsLmNvbSdcblxuXHRcdH1cblx0XVxuXHRleHBlY3Qoc2hhbGxvdyg8Q291bnRlckJ1dHRvbiByb2JvdHM9eyBtb2NrUm9ib3RzIH0vPikpLnRvTWF0Y2hTbmFwc2hvdCgpO1xufSkiXX0=

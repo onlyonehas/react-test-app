@@ -1,0 +1,24 @@
+364ad73d26b6e7e26c8ee875bcebf79c
+"use strict";
+
+var _interopRequireDefault = require("/home/hassan/Sites/react-basic-app-robofriends/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _enzyme = require("enzyme");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _CounterButton = _interopRequireDefault(require("./CounterButton"));
+
+var _jsxFileName = "/home/hassan/Sites/react-basic-app-robofriends/src/components/CounterButton.test.js";
+it('expect to render CounterButton component', () => {
+  const mockRobots = 'red';
+  expect((0, _enzyme.shallow)(_react.default.createElement(_CounterButton.default, {
+    color: mockColor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: void 0
+  }))).toMatchSnapshot();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNvdW50ZXJCdXR0b24udGVzdC5qcyJdLCJuYW1lcyI6WyJpdCIsIm1vY2tSb2JvdHMiLCJleHBlY3QiLCJtb2NrQ29sb3IiLCJ0b01hdGNoU25hcHNob3QiXSwibWFwcGluZ3MiOiI7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7O0FBRUFBLEVBQUUsQ0FBQywwQ0FBRCxFQUE2QyxNQUFNO0FBQ3BELFFBQU1DLFVBQVUsR0FBRyxLQUFuQjtBQUNBQyxFQUFBQSxNQUFNLENBQUMscUJBQVEsNkJBQUMsc0JBQUQ7QUFBZSxJQUFBLEtBQUssRUFBR0MsU0FBdkI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsSUFBUixDQUFELENBQU4sQ0FBcURDLGVBQXJEO0FBQ0EsQ0FIQyxDQUFGIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICB7IHNoYWxsb3csIG1vdW50LCByZW5kZXIgfSBmcm9tICdlbnp5bWUnO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBDb3VudGVyQnV0dG9uIGZyb20gJy4vQ291bnRlckJ1dHRvbic7XG5cbml0KCdleHBlY3QgdG8gcmVuZGVyIENvdW50ZXJCdXR0b24gY29tcG9uZW50JywgKCkgPT4ge1xuXHRjb25zdCBtb2NrUm9ib3RzID0gJ3JlZCdcblx0ZXhwZWN0KHNoYWxsb3coPENvdW50ZXJCdXR0b24gY29sb3I9eyBtb2NrQ29sb3J9Lz4pKS50b01hdGNoU25hcHNob3QoKTtcbn0pIl19

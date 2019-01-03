@@ -1,0 +1,22 @@
+75b1d9a2dfe2a3ad68949727a4e206a1
+"use strict";
+
+var _interopRequireDefault = require("/home/hassan/Sites/react-basic-app-robofriends/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _enzyme = require("enzyme");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Card = _interopRequireDefault(require("./Card"));
+
+var _jsxFileName = "/home/hassan/Sites/react-basic-app-robofriends/src/components/CardList.test.js";
+it('expect to render Card component', () => {
+  expect((0, _enzyme.shallow)(_react.default.createElement(_Card.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: void 0
+  }))).toMatchSnapshot();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNhcmRMaXN0LnRlc3QuanMiXSwibmFtZXMiOlsiaXQiLCJleHBlY3QiLCJ0b01hdGNoU25hcHNob3QiXSwibWFwcGluZ3MiOiI7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7O0FBRUFBLEVBQUUsQ0FBQyxpQ0FBRCxFQUFvQyxNQUFNO0FBQzNDQyxFQUFBQSxNQUFNLENBQUMscUJBQVEsNkJBQUMsYUFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxJQUFSLENBQUQsQ0FBTixDQUEwQkMsZUFBMUI7QUFDQSxDQUZDLENBQUYiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgIHsgc2hhbGxvdywgbW91bnQsIHJlbmRlciB9IGZyb20gJ2VuenltZSc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IENhcmQgZnJvbSAnLi9DYXJkJztcblxuaXQoJ2V4cGVjdCB0byByZW5kZXIgQ2FyZCBjb21wb25lbnQnLCAoKSA9PiB7XG5cdGV4cGVjdChzaGFsbG93KDxDYXJkIC8+KSkudG9NYXRjaFNuYXBzaG90KCk7XG59KSJdfQ==
