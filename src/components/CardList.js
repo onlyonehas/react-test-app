@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-
+import  { shallow, mount, render } from 'enzyme';
 
 const CardList = ({ robots }) => {
     return (

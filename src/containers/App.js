@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import {setSearchField, requestRobots} from '../actions';
+
+import ErrorBoundry from '../components/ErrorBoundry';
 import CardList from '../components/CardList';
 import Scroll from '../components/Scroll';
 import SearchBox from '../components/SearchBox';
-import './App.css';
+import Header from '../components/Header';
 
-import {setSearchField, requestRobots} from '../actions'
+import './App.css'; 
+
 
 const mapStateToProps = state => {
     return {
@@ -13,7 +17,7 @@ const mapStateToProps = state => {
         robots: state.requestRobots.robots, 
         isPending: state.requestRobots.isPending,
         error: state.requestRobots.error
-    }
+    }   
 }
 
 const mapDispatchToProps = (dispatch) => {
@@ -24,6 +28,13 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 class App extends Component {
+    constructor() {
+        super()
+        this.state = {
+          count: 1
+        }
+    }
+
     componentDidMount() {
         this.props.onRequestRobots();
     }
@@ -33,17 +44,19 @@ class App extends Component {
         const filteredRobots = robots.filter(robot =>{
             return robot.name.toLowerCase().includes(searchField.toLowerCase());
         })
-        return isPending?
-            <h1 className="f1">Loading ..</h1>:
-            (  
-                <div className='tc'>
-                    <h1 className="f1">RoboFriends</h1>
-                    <SearchBox searchChange={onSearchChange} />
-                    <Scroll>
-                        <CardList robots={filteredRobots} />
-                    </Scroll>
-                </div>
-            );
+        return (  
+            <div className='tc'>
+                <Header count={this.state.count} />
+                <SearchBox searchChange={onSearchChange} />
+                <Scroll>
+                    { isPending?  <h1> Loading </h1>:
+                        <ErrorBoundry>
+                            <CardList robots={filteredRobots} />
+                        </ ErrorBoundry >
+                    }
+                </Scroll>
+            </div>
+        );
 
     }
 }
