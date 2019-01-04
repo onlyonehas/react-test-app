@@ -11,7 +11,6 @@ class ErrorBoundry extends Component {
   }
 
   render () {
-    console.log('ErrorBoundry');
     if (this.state.hasError) {
       return <h1>Something went wrong.</h1>
     }
