@@ -1,7 +1,7 @@
 {
   "main.css": "/react-test-app/static/css/main.84b00fe3.chunk.css",
-  "main.js": "/react-test-app/static/js/main.ff93df3d.chunk.js",
-  "main.js.map": "/react-test-app/static/js/main.ff93df3d.chunk.js.map",
+  "main.js": "/react-test-app/static/js/main.3126be43.chunk.js",
+  "main.js.map": "/react-test-app/static/js/main.3126be43.chunk.js.map",
   "static/css/1.5f1973c2.chunk.css": "/react-test-app/static/css/1.5f1973c2.chunk.css",
   "static/js/1.103dcf09.chunk.js": "/react-test-app/static/js/1.103dcf09.chunk.js",
   "static/js/1.103dcf09.chunk.js.map": "/react-test-app/static/js/1.103dcf09.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/media/MainPage.css": "/react-test-app/static/media/SEGA.12a3db8b.woff",
   "static/css/main.84b00fe3.chunk.css.map": "/react-test-app/static/css/main.84b00fe3.chunk.css.map",
   "index.html": "/react-test-app/index.html",
-  "precache-manifest.17800c772d43f1867baa5b756933e36d.js": "/react-test-app/precache-manifest.17800c772d43f1867baa5b756933e36d.js",
+  "precache-manifest.71fbe146652380e9d7fb240b8843deba.js": "/react-test-app/precache-manifest.71fbe146652380e9d7fb240b8843deba.js",
   "service-worker.js": "/react-test-app/service-worker.js"
 }
