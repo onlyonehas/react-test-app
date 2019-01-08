@@ -4,8 +4,6 @@
   "private": true,
   "homepage": "https://onlyonehas.github.io/react-test-app",
   "dependencies": {
-    "csurf": "^1.9.0",
-    "express": "^4.16.4",
     "gh-pages": "^2.0.1",
     "helmet": "^3.15.0",
     "react": "^16.7.0",

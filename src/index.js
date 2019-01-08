@@ -10,10 +10,6 @@ import 'tachyons';
 import { searchRobots, requestRobots } from './reducers';
 import {createLogger } from 'redux-logger';
 
-const bodyParser = require('body-parser')
-const app = express()
-
-app.use(bodyParser)
 const logger = createLogger();
 const rootReducer = combineReducers({ searchRobots, requestRobots})
 const store = createStore(rootReducer   , applyMiddleware(thunkMiddleware, logger))
